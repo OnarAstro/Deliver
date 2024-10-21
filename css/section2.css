@@ -1,0 +1,190 @@
+.section2 {
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .section2 {
+    gap: 10px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .section2 {
+    gap: 1px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .section2 {
+    gap: 4px;
+    padding-top: 220px;
+  }
+}
+.section2 .right-section2 {
+}
+
+.section2 .right-section2 .right-img {
+  width: 150px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .section2 .right-section2 .right-img {
+    width: 130px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .section2 .right-section2 .right-img {
+    width: 120px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .section2 .right-section2 .right-img {
+    width: 80px;
+  }
+}
+.section2 .right-section2 .right-img img {
+  width: 100%;
+}
+
+/* ---------------------- */
+
+.section2 .icon-right {
+  margin-top: 150px;
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .section2 .icon-right {
+    margin-top: 90px;
+  }
+}
+.section2 .icon-right i {
+  color: gray;
+}
+.section2 .icon-right i:hover {
+  color: #863495;
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .section2 .icon-right i {
+    font-size: 12px;
+  }
+}
+/* ---------------- */
+
+.section2 .mid-section2 {
+  text-align: center;
+  width: 350px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .section2 .mid-section2 {
+    width: 300px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .section2 .mid-section2 {
+    width: 260px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .section2 .mid-section2 {
+    width: 150px;
+  }
+}
+.section2 .mid-section2 .mid-box {
+  width: 100%;
+}
+
+.section2 .mid-section2 .mid-box .box-image-section2 {
+  width: 350px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .section2 .mid-section2 .mid-box .box-image-section2 {
+    width: 300px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .section2 .mid-section2 .mid-box .box-image-section2 {
+    width: 260px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .section2 .mid-section2 .mid-box .box-image-section2 {
+    width: 150px;
+  }
+}
+.section2 .mid-section2 .mid-box .box-image-section2 img {
+  width: 100%;
+}
+
+.section2 .mid-section2 .mid-box .box-image-section2 .text-image {
+  margin-top: -30px;
+}
+
+.section2 .mid-section2 .mid-box .box-image-section2 .text-image h1 {
+  font-size: 23px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #535151;
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .section2 .mid-section2 .mid-box .box-image-section2 .text-image h1 {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .section2 .mid-section2 .mid-box .box-image-section2 .text-image h1 {
+    font-size: 13px;
+  }
+}
+.section2 .mid-section2 .mid-box .box-image-section2 .text-image p {
+  width: 56%;
+  margin-left: 23%;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #898989;
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .section2 .mid-section2 .mid-box .box-image-section2 .text-image p {
+    font-size: 13px;
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .section2 .mid-section2 .mid-box .box-image-section2 .text-image p {
+    font-size: 7px;
+    width: 62%;
+  }
+}
+/* -------------------------- */
+
+.icon-left {
+  margin-top: 150px;
+}
+.icon-left i {
+  color: gray;
+}
+.icon-left i:hover {
+  color: #863495;
+}
+/* --------------- */
+
+.section2 .left-section2 {
+}
+
+.section2 .left-section2 .left-img {
+  width: 150px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .section2 .left-section2 .left-img {
+    width: 130px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .section2 .left-section2 .left-img {
+  }
+}
+.section2 .left-section2 .left-img img {
+  width: 100%;
+}

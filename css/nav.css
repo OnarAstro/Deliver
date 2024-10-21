@@ -1,0 +1,133 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* position: relative; */
+  margin: 50px;
+  max-width: 100%;
+  z-index: 999;
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  nav{
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 40px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  nav{
+    margin-right: 0px;
+    margin-left: 10px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  nav {
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  nav {
+  }
+}
+.links-nav {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  text-align: center;
+  gap: 5px;
+  width: 100%;
+}
+
+.logo-nav {
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .logo-nav {
+    margin-left: -10px;
+  }
+}
+.logo-nav img {
+  width: 100px;
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .logo-nav img  {
+    width: 80px;
+  }
+}
+.box-ul-nav {
+  height: 30px;
+}
+
+.box-ul-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  width: 100%;
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .box-ul-nav ul {
+    gap: 20px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .box-ul-nav ul {
+    gap: 15px;
+  }
+}
+.box-ul-nav ul .li-nav {
+}
+.box-ul-nav ul .li-nav:hover {
+  border-bottom: 2px solid #863495;
+  transition: all 0.1s ease-in-out;
+  
+}
+.box-ul-nav ul .li-nav a {
+  text-decoration: none;
+  color: #606f76;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .box-ul-nav ul .li-nav a {
+    font-size: 12px;
+  }
+}
+/* ----------- */
+
+.login-nav {
+  background: #fafafa;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 15px;
+  margin-right: 50px;
+  font-weight: 400;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.login-nav:hover {
+  background: #863495;
+  color: #fafafa;
+}
+.login-nav a {
+  text-decoration: none;
+  color: #606f76;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.login-nav a:hover {
+  color: #fafafa;
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .login-nav {
+    margin-right: 10px;
+  }
+
+}
